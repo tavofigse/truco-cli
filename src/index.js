@@ -4,7 +4,7 @@ let screen = blessed.screen({
   smartCSR: true
 })
 
-screen.title = 'my window title'
+screen.title = 'truco-cli 😎'
 
 // Create a box perfectly centered horizontally and vertically.
 let box = blessed.box({
@@ -12,7 +12,7 @@ let box = blessed.box({
   left: 'center',
   width: '50%',
   height: '50%',
-  content: 'Hello {bold}world{/bold}!',
+  content: ' Hello truco-{bold}cli{/bold}!',
   tags: true,
   border: {
     type: 'line'
