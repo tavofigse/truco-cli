@@ -47,7 +47,7 @@ box.key('enter', (ch, key) => {
 })
 
 // Quit on Escape, q, or Control-C.
-screen.key(['escape', 'q', 'C-c'], function (ch, key) {
+screen.key(['escape', 'q', 'C-c'], (ch, key) => {
   return process.exit(0)
 })
 
