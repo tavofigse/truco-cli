@@ -2,7 +2,6 @@
  * This class encapsulate the logic for a single
  * card of the deck.
  *
- * @returns {Object}
  */
 class Card {
   /**

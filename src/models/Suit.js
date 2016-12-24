@@ -2,7 +2,6 @@
  * This class encapsulate the logic for a single
  * suit of the deck.
  *
- * @returns {Object}
  */
 class Suit {
   /**
